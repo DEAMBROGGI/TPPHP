@@ -15,15 +15,7 @@ $.fn.scrollEnd = function(callback, timeout) {
 */
 
 function inicializarSlider(){
-  $("#rangoPrecio").ionRangeSlider({
-    type: "double",
-    grid: false,
-    min: 0,
-    max: 100000,
-    from: 200,
-    to: 80000,
-    prefix: "$"
-  });
+ 
 }
 /*
   Función que reproduce el video de fondo al hacer scroll, y deteiene la reproducción al detener el scroll
